@@ -195,13 +195,13 @@ int get_len(int n);
 char *aux_itoa(int n);
 int _atoi(char *s);
 
-/* aux_error1.c */
+/* au_error1.c */
 char *strcat_cd(data_shell *, char *, char *, char *);
 char *error_get_cd(data_shell *datash);
 char *error_not_found(data_shell *datash);
 char *error_exit_shell(data_shell *datash);
 
-/* aux_error2.c */
+/* au_error2.c */
 char *error_get_alias(char **args);
 char *error_env(data_shell *datash);
 char *error_syntax(char **args);
@@ -215,14 +215,14 @@ int get_error(data_shell *datash, int eval);
 /* get_sigint.c */
 void get_sigint(int sig);
 
-/* aux_help.c */
+/* a_help.c */
 void aux_help_env(void);
 void aux_help_setenv(void);
 void aux_help_unsetenv(void);
 void aux_help_general(void);
 void aux_help_exit(void);
 
-/* aux_help2.c */
+/* a_help2.c */
 void aux_help(void);
 void aux_help_alias(void);
 void aux_help_cd(void);
