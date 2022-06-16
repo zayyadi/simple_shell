@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _getenv - gets PATH member from environ
+ * _getenv - gets PATH member from environ.
  * @name: pointer to PATH string
  *
  * Return: pointer to PATH member string or NULL if not found

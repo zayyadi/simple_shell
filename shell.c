@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - runs the shell program
+ * main - runs the shell program.
  *
  * Return: 0 on success
  */

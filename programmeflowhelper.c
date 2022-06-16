@@ -2,7 +2,7 @@
 /**
  * prompt - writes a prompt
  *
- * Return: 0 on sucess
+ * Return: 0 on sucess.
  */
 int prompt(void)
 {
